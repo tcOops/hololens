@@ -18,7 +18,7 @@ IMYUAN || (IMYUAN = {});
                     var d = a(document).scrollTop(),
                     e = a(window).height();
                     0 < d ? b.css("bottom", "200px") : b.css("bottom", "-200px");
-                    (b.hide(), clearTimeout(c), c = setTimeout(function() {
+                    a.isIE6() && (b.hide(), clearTimeout(c), c = setTimeout(function() {
                         b.show();
                         clearTimeout(c)
                     },
