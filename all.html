@@ -51,7 +51,7 @@ layout: all
            <div class="post-block {% for tag in post.tags %} tag-{{ tag }}{% endfor%}">
               <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
               <h2>
-                <a class="post-link" style="color:#D0648A" href="{{ post.url | prepend: site.baseurl }}"><h3><strong>{{ post.title }}</strong></h3></a>
+                <a class="post-link" style="color:#D0648A" href="{{ post.url | prepend: site.url }}"><h3><strong>{{ post.title }}</strong></h3></a>
               </h2>
                 
 
