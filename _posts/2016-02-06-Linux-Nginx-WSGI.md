@@ -3,7 +3,7 @@ title: Linux配置Nginx + WSGI
 time: 2016.02.06 21:47:00
 layout: post
 tags:
-- 运维|配置
+- 运维配置
 excerpt: 最近做了一个Django的小项目, 然后又购买了一个vps, 所以要在ubuntu下将这个小项目ssh到vps上.在vps上已经装好了apache来跑一个php的项目.
 ---
 
