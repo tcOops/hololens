@@ -19,4 +19,4 @@ weixin_username: tcOops
 
 # Build settings
 markdown: rdiscount
-
+timezone: Asia/Shanghai
