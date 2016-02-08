@@ -4,9 +4,9 @@ time: 2016.02.06 21:47:00
 layout: post
 tags:
 - 闲聊
-excerpt: 最近做了一个Django的小项目, 然后又购买了一个vps, 所以要在ubuntu下将这个小项目ssh到vps上.
-在vps上已经装好了apache来跑一个php的项目.
+excerpt: 最近做了一个Django的小项目, 然后又购买了一个vps, 所以要在ubuntu下将这个小项目ssh到vps上.在vps上已经装好了apache来跑一个php的项目.
 ---
+
 
 最近在配置web服务器, 将django发布到VPS上. 中间遇到了不少问题, 也得到了一些帮助. 深感对计算机软件还有很多的不了解, 对计算机网络
 linux操作系统也有很多不熟悉的地方. 
