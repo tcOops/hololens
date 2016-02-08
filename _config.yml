@@ -9,8 +9,9 @@
 title: tcOops website
 email: 1991tanc@gmail.com
 description: Source of me
-baseurl: /hololens # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site
+baseurl:  /hololens# the subpath of your site, e.g. /blog
+urls: http://localhost:4000 # the base hostname & protocol for your site
+url: http://tcOops.github.io/hololens
 twitter_username: 
 github_username:  tcOops
 github: https://github.com/tcOops?tab=repositories
