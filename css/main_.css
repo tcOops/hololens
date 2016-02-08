@@ -93,3 +93,48 @@
 #returnTop:hover {
 	background-position:0 -65px;
 }
+
+#footer {
+  background: #33363b;
+  margin-top: 60px;
+  color: #aaa;
+  line-height: 1.6em;
+}
+#footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+#footer a:hover {
+  color: #fff;
+}
+#footer .credit {
+  padding: 30px;
+}
+#footer #back-to-top {
+  background: #fff;
+  color: #777;
+  overflow: hidden;
+  text-align: center;
+  width: 60px;
+  height: 30px;
+  display: block;
+  margin: 0 auto -30px;
+  -webkit-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+#footer #back-to-top:hover {
+  color: #444;
+}
+#footer #back-to-top i {
+  font-size: 38px;
+  line-height: 22px;
+}
+#footer .logo {
+  width: 96px;
+  height: 80px;
+  -webkit-background-size: 96px 80px;
+  -moz-background-size: 96px 80px;
+  background-size: 96px 80px;
+}
