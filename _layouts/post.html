@@ -7,18 +7,61 @@
   {% include post-nav.html %}
   
   <section class="bg-greys post-content" id="blogs">	
-	<div style="text-align:center">
-	 	<h2><strong>{{page.title}}</strong></h2>
-	 	<br>
-	 </div>
-  	{{ content }}
+    	<div style="text-align:center">
+      	 	<h2><strong>{{page.title}}</strong></h2>
+      	 	<br>
+  	  </div>
+    	{{ content }}
+
+      <blockquote class="relatedPosts">
+        {% assign hasSimilar = '' %}
+        {% for post in site.posts %}
+            {% assign postHasSimilar = false %}
+            {% for tag in post.tags %}
+                {% if tag != '中文' and post.title != page.title %}
+                {% for thisTag in page.tags %}
+                    {% if postHasSimilar == false and hasSimilar.size < 5 and tag == thisTag %}
+                        {% if hasSimilar.size == 0 %}
+                        <h4>相似文章</h4>
+                        <ul>
+                        {% endif %}
+                        <li class="relatedPost">
+                            <a href="{{ site.url }}{{ post.url }}" onclick="_gaq.push(['_trackEvent', 'ToPost', 'InRelated', window.location.pathname]);">
+        
+                            {{ post.title }}
+                            </a>
+                        </li>
+                        {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+                        {% assign postHasSimilar = true %}
+                    {% endif %}
+                {% endfor %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+        {% if hasSimilar.size > 0 %}
+            </ul>
+        {% endif %}
+
+        <br>
+        <h4>最近发表的文章</h4>
+        <ul>
+        {% for post in site.posts limit:3 %}
+            <li class="relatedPost">
+                <a href="{{ site.url }}{{ post.url }}">
+                    {{ post.title }}{% if post.subtitle != null %}：{{ post.subtitle }}{% endif %}     
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+        <a class="button" href="{{ site.url }}/all">全部文章</a></p>
+    </blockquote>
   </section>  
   
   {% include comment.html %}
 
-{% include footer.html %}
-<a id="returnTop" href="javascript:;">回到顶部</a>
-{% include scripts.html %}
+  {% include footer.html %}
+  <a id="returnTop" href="javascript:;">回到顶部</a>
+  {% include scripts.html %}
 </body>
 
 </html>
