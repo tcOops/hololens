@@ -1,0 +1,52 @@
+<section class="no-padding fullheight" id="aboutMe">
+    <aside class="bg-info aboutme">
+      <div class="text-center">
+          <div class="call-to-action">
+              <h3>关于我</h3>
+              <p>我是：<strong>tcOops</strong>，来自：<strong>中国大陆</strong></p>
+              <p>目前：<strong>上海交通大学计算机系Master在读(2015)</strong></p>
+              <h3>喜欢|擅长</h3>
+              <a href="#aboutMe" class="btn btn-default btn-sm wow tada">网站设计</a>
+              <a href="#aboutMe" class="btn btn-default btn-sm wow tada">系统架构</a>
+              <a href="#aboutMe" class="btn btn-default btn-sm wow tada">程序设计语言</a>
+              <a href="#aboutMe" class="btn btn-default btn-sm wow tada">算法设计</a>
+              <h3>愿意合作的事情</h3>
+              <a href="#aboutMe" class="btn btn-default btn-sm wow tada">游览黄石公园</a>
+              <a href="#aboutMe" class="btn btn-default btn-sm wow tada">参加hackathon</a>
+              <a href="#aboutMe" class="btn btn-default btn-sm wow tada">一起开发网站</a>
+          </div>
+
+      </div>
+    </aside>
+
+    <br><br>
+
+    <div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h3 class="section-heading">想要联系我？</h3>
+                <hr class="primary">
+                <p>目前有这么几种方式联系我：</p>
+            </div>
+            <div class="col-lg-2 col-lg-offset-2 text-center">
+                <a href="{{site.url}}/weixinPN">
+                    <i class="fa fa-weixin fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>{{ site.weixin_username }}</p>
+                </a>
+            </div>
+            <div class="col-lg-2 col-lg-offset-1 text-center">
+                <a href="mailto:{{ site.email }}">
+                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>{{ site.email }}</p>
+                </a>
+            </div>
+            <div class="col-lg-2 col-lg-offset-1 text-center">
+                <a href="{{ site.github }}">
+                <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>{{ site.github_username }}</p>
+                </a>
+            </div>
+        </div>
+
+     </div>
+</section>

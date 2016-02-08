@@ -1,0 +1,52 @@
+<section class="no-padding bg-greys" id="blogs">
+    <div class="">  	
+		<div class="bloglistleft">
+			<span style="color:#22C3AA;text-algin:left"><h2>&nbsp;&nbsp;最近的文章</h2></span>
+			 {% for post in site.posts limit:10 %}
+		       <div class="post-block">
+			        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+			        <h2>
+			          <a class="post-link" style="color:#D0648A" href="{{ post.url | prepend: site.baseurl }}"><h3><strong>{{ post.title }}</strong></h3></a>
+			        </h2>
+		            
+		            <h5 class="post-series">
+		                
+		            </h5>
+
+		            <div class="tagPanel">  
+			            {% for tag in post.tags %}             
+			              <a href="{{ site.url }}/all?tag={{tag}}" class="btn btn-danger btn-sm wow tada" style="background-color:#22C3AA;">{{tag}}</a>
+			          	{% endfor %}              
+		            </div> 
+		      
+		            <p class="p2">{{ post.excerpt | markdownify }}  </p>       
+		        </div>
+
+			{% endfor %}
+			<div class="post-block">
+		 		
+		 	</div>
+		 	<div style="margin:0px 0 20px 45%">
+		 		<form method="get" action="{{site.url}}/all?">
+		 	 		<input type="submit" class="all-post-btn" value="全部博客">
+		 		</form>
+
+		 	</div>
+		</div>
+		
+		<div class="taglistright">
+		 	<span style="color:#22C3AA;text-align:center"><h2>分类阅读</h2></span>
+		 	{% for tag in site.tags %}
+		 	<div class="tag-block">
+		 		   <a href="{{ site.url }}/all?tag={{tag[0]}}" class="btn btn-info btn-sl wow tada">{{tag[0]}}</a>
+		 	</div>
+		 	{% endfor %}
+		 	<div class="tag-block">
+		 		
+		 	</div>
+		</div>
+	</div>
+
+	<div style="clear:both"></div>
+
+</section>

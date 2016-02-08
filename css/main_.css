@@ -1,0 +1,71 @@
+.blogList{
+	padding: 20px 0 20px 15px;
+}
+
+.aboutme{
+	padding: 40px 0 60px 0;
+}
+
+.fullheight{
+	height:100%;
+}
+
+
+.post-block, .post-block_ {
+	width:95%;
+	margin: 0.6em 2em 0 1.5em;
+	padding: 10px 0 10px 0;
+	border-top: 1px dashed #D0648A;
+	border-color:#22C3AA;
+}
+
+.tag-block {
+	width:95%;
+	margin: 0.5em 2em 0 0em;
+	padding: 15px 0 10px 0%;
+	border-top: 1px dashed #D0648A;
+	border-color:#22C3AA;
+	color:black;
+	text-align: center;
+}
+
+.bloglistleft{
+	float:left; 
+	width:78%;
+} 
+
+ .taglistright{
+	width:22%;
+	float:left;
+} 
+
+.bg-greys{
+	background-color: #EFEFEF;
+}
+
+.post-body{
+	margin: 0% 0 0 10%; 
+	width:80%;
+}
+
+.post-content{
+	padding:20px 20px 20px 20px;
+}
+
+.p2{
+    font-family: Lato,"Microsoft YaHei",sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8em;
+    margin: 1em 0;
+    color: #333;
+}
+
+.all-post-btn{	
+    background-color: ##EFEFEF;
+    padding: 3px 8px;
+    color: black;
+    font-weight: bold;
+    border-radius: 0.3em;
+    border-radius: 0.3em;
+}
+}
