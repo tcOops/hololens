@@ -7,7 +7,6 @@ tags:
 excerpt: NIC Teaming是Linux内核的一个功能，能在多个物理接口之上虚拟出一个网络接口，达到提高带宽、增强稳定性的目的。类似硬盘的RAID，NIC Teaming也分为多种模式，比如round-robin、broadcast、active-backup等等。其中round-robin模式顾名思义，就是将发送的包按顺序分别从几个物理接口上发送出去，理论上能达到成倍的带宽（类似RAID 0），于是很自然的就想到用这个模式。
 ---
 
-<section class="bg-greys post-content" id="blogs">
  
  <div style="text-align:center">
  	<h2><strong>{{page.title}}</strong></h2>
@@ -226,4 +225,3 @@ class Solution:
         return ans
 ```
 
- </section>
