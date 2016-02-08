@@ -18,7 +18,7 @@ IMYUAN || (IMYUAN = {});
                     var d = a(document).scrollTop(),
                     e = a(window).height();
                     0 < d ? b.css("bottom", "200px") : b.css("bottom", "-200px");
-                    a.isIE6() && (b.hide(), clearTimeout(c), c = setTimeout(function() {
+                    (b.hide(), clearTimeout(c), c = setTimeout(function() {
                         b.show();
                         clearTimeout(c)
                     },
@@ -30,10 +30,6 @@ IMYUAN || (IMYUAN = {});
     })
 })
 
-(jQuery); (function(a) {
-    a("body")('<a class="close" href="javascript:;"></a>');
-
-})
 
 (function() {
     $("#returnTop").returntop()
