@@ -30,6 +30,10 @@ IMYUAN || (IMYUAN = {});
     })
 })
 
+(jQuery); (function(a) {
+    a("body")('<a class="close" href="javascript:;"></a>');
+
+})
 
 (function() {
     $("#returnTop").returntop()
