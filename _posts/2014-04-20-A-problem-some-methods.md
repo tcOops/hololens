@@ -4,7 +4,7 @@ time: 2014.04.20 16:40:00
 layout: post
 tags:
 - 算法竞赛
-excerpt: 无意中做到：[CF|Round207|DIV1|A](http://codeforces.com/contest/356/problem/A) , 一开始以为线段树可以秒， 果然数据是卡线段树的。后来经过考虑发现这题存在好几种方法， 特此总结一下：请期待我第二版用C++刷。
+excerpt: 无意中做到：[CF|Round207|DIV1|A](http://codeforces.com/contest/356/problem/A) , 一开始以为线段树可以秒， 果然数据是卡线段树的。后来经过考虑发现这题存在好几种方法， 特此总结一下。
 ---
 
 &nbsp;&nbsp;无意中做到：[CF|Round207|DIV1|A](http://codeforces.com/contest/356/problem/A) , 一开始以为线段树可以秒， 果然数据是卡线段树的。
