@@ -1,5 +1,5 @@
 ---
-title: 数据结构： 区间维护与查询
+title: 数据结构：区间维护与查询
 time: 2015.05.12
 layout: post
 tags:
