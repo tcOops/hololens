@@ -1,6 +1,6 @@
 ---
 title: Linux配置Nginx + WSGI
-time: 2016.02.06 21:47:00
+time: 2015.08.20
 layout: post
 tags:
 - 运维配置
