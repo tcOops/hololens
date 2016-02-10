@@ -187,6 +187,28 @@ void gao(int x, int y, int d){
         }
     }
 }
+
+int main(){
+    int n, m;
+    scanf("%d%d", &m, &n);
+
+    //init the set
+    for(int i = 0; i <= m + 1; ++i){
+        fa[i] = i;
+    }
+
+    for(int i = 0; i < n; ++i){
+        int x, y, z;
+        scanf("%d%d%d", &x, &y, &z);
+        gao(x, z - 1, z);
+        gao(z + 1, y, z);
+    }
+
+    for(int i = 1; i <= m; ++i){
+        printf("%d ", ans[i]);
+    }
+    return 0;
+}
 ```
 
 ---
