@@ -2,6 +2,9 @@
     <div class="">  	
 		<div class="bloglistleft">
 			<span style="color:#22C3AA;text-algin:left"><h2>&nbsp;&nbsp;最近的文章</h2></span>
+			&nbsp; &nbsp; &nbsp;
+			 <a href="{{ site.url }}/feed.xml" target="_blank" title="rss" class="btn btn-danger btn-sl wow tada"><img src="{{site.url}}/img/RSS.png" width="25px" height="25px"> RSS 订阅</a>
+
 			 {% for post in site.posts limit:10 %}
 		       <div class="post-block">
 			        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
@@ -42,7 +45,6 @@
 		 	{% endfor %}
 		 	<div class="tag-block">
 
-		 		 <a href="http://www.spacenx.pw/feed.xml" target="_blank" title="rss" class="btn btn-danger btn-sl wow tada"><img src="../img/RSS.png" width="25px" height="25px"> RSS 订阅</a>
 		 	</div>
 		</div>
 	</div>
