@@ -1,7 +1,7 @@
-<section class="no-padding bg-greys" id="blogs">
+<section class="no-padding bg-grey" id="blogs">
     <div class="">  	
 		<div class="bloglistleft">
-			<span style="color:#22C3AA2;text-algin:left"><h2>&nbsp;&nbsp;最近的文章</h2></span>
+			<span style="color:#22C3AA;text-algin:left"><h2>&nbsp;&nbsp;最近的文章</h2></span>
 			 {% for post in site.posts limit:10 %}
 		       <div class="post-block">
 			        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
