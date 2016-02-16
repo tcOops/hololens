@@ -138,3 +138,9 @@
   -moz-background-size: 96px 80px;
   background-size: 96px 80px;
 }
+
+.blog-back{
+background:url('../img/bg12.png') no-repeat scroll top;
+background-attachment:fixed; 
+background-size:100% 100%;
+}
