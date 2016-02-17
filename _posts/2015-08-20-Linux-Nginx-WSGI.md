@@ -1,14 +1,14 @@
 ---
-title: Linux配置Nginx + WSGI
+title: Ubuntu14.04下配置Nginx + WSGI
 time: 2015.08.20
 layout: post
 tags:
 - 运维配置
-excerpt: 最近用Django做了一个很simple|naive|young的小项目, 然后又在阿里云上混了一个虚拟云主机。所以需要将本地ubuntu环境下的测试环境的django部署到远程虚拟主机的生产环境下。
+excerpt: 最近用Django做了一个很simple|naive|young的小项目, 然后又在阿里云上混了一个虚拟云主机。所以需要将本地ubuntu环境下(测试环境)django项目部署到远程虚拟主机的生产环境下。
 ---
 
 
-&nbsp;&nbsp;最近用Django做了一个很simple|naive|young的小项目, 然后又在阿里云上混了一个虚拟云主机。所以需要将本地ubuntu环境下的测试环境的django部署到远程虚拟主机的生产环境下。中间遇到了不少问题, 也得到了一些帮助. 感觉自身在linux服务器运维方面的能力还非常谦虚（sad）.
+&nbsp;&nbsp;最近用Django做了一个很simple|naive|young的小项目, 然后又在阿里云上混了一个虚拟云主机。所以需要将本地ubuntu环境下(测试环境)django项目部署到远程虚拟主机的生产环境下。中间遇到了不少问题, 也得到了一些帮助. 感觉自身在linux服务器运维方面的能力还非常谦虚（sad）.
 
 背景: 最近做了一个Django的小项目DMS, 然后又购买了一个vps, 所以要在ubuntu下将这个小项目ssh到vps上.
 在vps上已经装好了apache来跑一个php的项目. 
