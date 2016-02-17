@@ -144,3 +144,26 @@ background:url('../img/bg12.png') no-repeat scroll top;
 background-attachment:fixed; 
 background-size:100% 100%;
 }
+
+.loaders:before, .loaders:after {
+  position: absolute;
+  margin:0 0 0 72%;
+  border-radius: 50%;
+  border-style: solid;
+  border-top-color: #ECD078;
+  border-right-color: #C02942;
+  border-bottom-color: #542437;
+  border-left-color: #53777A;
+  content: '';
+  transform: translate(-50%, -50%);
+  animation: rotate 1.5s  infinite ease-in-out;
+}
+.loaders:before {
+  border-width: 8vh;
+}
+.loaders:after {
+  width: 8vh;
+  height: 8vh;
+  border-width: 2.5vh;
+  animation-direction: reverse;
+}
