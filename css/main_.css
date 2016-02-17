@@ -167,3 +167,11 @@ background-size:100% 100%;
   border-width: 2.5vh;
   animation-direction: reverse;
 }
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
