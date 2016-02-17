@@ -106,9 +106,9 @@ server {
 
     # the domain name it will serve for
     # server_name .example.com; # substitute your machine's IP address or FQDN
-rset     utf-8;
+    
+    charset     utf-8;
 
-    cha
     # max upload size
     client_max_body_size 75M;   # adjust to taste
 
