@@ -17,6 +17,9 @@
 	padding: 10px 0 10px 0;
 	border-top: 1px dashed #D0648A;
 	border-color:#22C3AA;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #544C4C;
 }
 
 .tag-block {
@@ -27,6 +30,9 @@
 	border-color:#22C3AA;
 	color:black;
 	text-align: center;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #544C4C;
 }
 
 .bloglistleft{
