@@ -6,12 +6,15 @@
 <body id="page-top" class="post-body">
   {% include post-nav.html %}
   
-  <section class="bg-greys post-content" id="blogs">	
+  <section id="blogs">	
     	<div style="text-align:center">
       	 	<h2><strong>{{page.title}}</strong></h2>
       	 	<br>
   	  </div>
-    	{{ content }}
+
+      <blockquote class="post-content">
+    	 {{ content }}
+      </blockquote>
 
       <blockquote class="relatedPosts">
         {% assign hasSimilar = '' %}
