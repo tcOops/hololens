@@ -6,17 +6,17 @@
 <body id="page-top" class="post-body">
   {% include post-nav.html %}
   
-  <section id="blogs">	
+  <section class="post-content" id="blogs">	
     	<div style="text-align:center">
       	 	<h2><strong>{{page.title}}</strong></h2>
       	 	<br>
   	  </div>
 
-      <blockquote class="post-content">
+      <blockquote>
     	 {{ content }}
       </blockquote>
 
-      <blockquote class="relatedPosts">
+      <div class="post-content">
         {% assign hasSimilar = '' %}
         {% for post in site.posts %}
             {% assign postHasSimilar = false %}
@@ -57,7 +57,7 @@
         {% endfor %}
         </ul>
         <a class="button" href="{{ site.url }}/all">全部文章</a></p>
-    </blockquote>
+    </div>
   </section>  
   
   {% include comment.html %}
