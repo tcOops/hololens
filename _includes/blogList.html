@@ -2,14 +2,14 @@
     <div class="">  	
 		<div class="bloglistleft">
 			<div>
-				<span style="color:#22C3AA;text-algin:left"><h2>&nbsp;&nbsp;最近的文章 	&nbsp; &nbsp; &nbsp; <a href="{{ site.url }}/feed.xml" target="_blank" title="rss" class="btn btn-danger btn-sl wow tada"><img src="{{site.url}}/img/RSS.png" width="25px" height="25px"> RSS 订阅</a></h2></span>				
+				<span style="color:#34495e;text-algin:left"><h2>&nbsp;&nbsp;最近的文章 	&nbsp; &nbsp; &nbsp; <a href="{{ site.url }}/feed.xml" target="_blank" title="rss" class="btn btn-danger btn-sl wow tada"><img src="{{site.url}}/img/RSS.png" width="25px" height="25px"> RSS 订阅</a></h2></span>				
 			</div>
 
 			 {% for post in site.posts limit:10 %}
 		       <div class="post-block">
 			        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
 			        <h2>
-			          <a class="post-link" style="color:#D0648A" href="{{ post.url | prepend: site.url }}"><h3><strong>{{ post.title }}</strong></h3></a>
+			          <a class="post-link" style="color:#34495e" href="{{ post.url | prepend: site.url }}"><h3><strong>{{ post.title }}</strong></h3></a>
 			        </h2>
 		            
 		            <h5 class="post-series">
@@ -37,7 +37,7 @@
 		</div>
 		
 		<div class="taglistright">
-		 	<span style="color:#22C3AA;text-align:center"><h2>分类阅读</h2></span>
+		 	<span style="color:#34495e;text-align:center"><h2>分类阅读</h2></span>
 		 	{% for tag in site.tags %}
 		 	<div class="tag-block">
 		 		   <a href="{{ site.url }}/all?tag={{tag[0]}}" class="btn btn-info btn-sl wow tada">{{tag[0]}}</a>
