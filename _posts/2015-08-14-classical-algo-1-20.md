@@ -616,7 +616,7 @@ int main(){
 ```
 
 ---
-*HDOJ 4763
+* HDOJ 4763
 
 ```
 //[提交地址](http://acm.hdu.edu.cn/showproblem.php?pid=4763)
