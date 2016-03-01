@@ -2,7 +2,6 @@
 title: 数据结构：区间维护与查询
 time: 2015.05.12
 layout: post
-post-img: /img/currey.png
 more: yes
 tags:
 - 算法竞赛

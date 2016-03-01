@@ -2,7 +2,7 @@
 title: 重要算法题合集(1-20)
 time: 2015.08.14
 layout: post
-post-img: /img/currey.png
+post-img: /img/bg1.png
 more: yes
 tags:
 - 算法竞赛
