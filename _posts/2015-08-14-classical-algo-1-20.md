@@ -2,6 +2,8 @@
 title: 重要算法题合集(1-20)
 time: 2015.08.14
 layout: post
+post-img: /img/currey.png
+more: yes
 tags:
 - 算法竞赛
 excerpt: 希望本集合少一点水题 :)  ｜  希望本集合的题目能一直延续一下 :) ｜ 喵咪咪～

@@ -2,6 +2,8 @@
 title: Ubuntu14.04下配置Nginx + WSGI
 time: 2015.08.20
 layout: post
+post-img: /img/currey.png
+more: yes
 tags:
 - 运维配置
 excerpt: 最近用Django做了一个很simple|naive|young的小项目, 然后又在阿里云上混了一个虚拟云主机。所以需要将本地ubuntu环境下(测试环境)django项目部署到远程虚拟主机的生产环境下。

@@ -7,7 +7,7 @@
 
 			 {% for post in site.posts limit:10 %}
 		       <div class="post-block">
-			        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+			        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span> 
 			        <h2>
 			          <a class="post-link" style="color:#34495e" href="{{ post.url | prepend: site.url }}"><h3><strong>{{ post.title }}</strong></h3></a>
 			        </h2>

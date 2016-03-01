@@ -22,3 +22,10 @@ zhihu: https://www.zhihu.com/people/chao-tan-40
 # Build settings
 markdown: rdiscount
 timezone: Asia/Shanghai
+
+
+paginate: 5
+paginate_path: "page:num"
+
+gems:
+- jekyll-paginate
