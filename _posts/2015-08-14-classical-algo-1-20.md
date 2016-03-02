@@ -6,13 +6,15 @@ post-img: /img/bg1.png
 more: yes
 tags:
 - 算法竞赛
-excerpt: 「&nbsp;希望本集合少一点水题 :)  <br> 「&nbsp; 希望本集合的题目能一直延续一下 :)  <br> 「&nbsp; 喵咪咪～
+excerpt: 「&nbsp;希望本集合少一点水题 :)  <br> 「&nbsp; 希望本集合的题目能一直延续一下 :)  <br> 「&nbsp; 喵咪咪～<br><br>源码地址：[https://github.com/tcOops/Training/tree/phase1/phase1](https://github.com/tcOops/Training/tree/phase1/phase1)
 ---
 
 * 希望本集合少一点水题 :) 
 * 希望本集合的题目能一直延续一下 :) 
 * 喵咪咪～
 
+
+源码地址：[https://github.com/tcOops/Training/tree/phase1/phase1](https://github.com/tcOops/Training/tree/phase1/phase1)
 ---
 
 * POJ 3984
