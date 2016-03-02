@@ -34,11 +34,13 @@ layout: all
         if (query.tag !== undefined) {
             var tag = decodeURI(query.tag);
             document.getElementById('curTags').innerHTML = tag;
+            document.title = "SpaceNX/" + tag
             $('h1').hide();
             $('.post-block').not('.tag-' + tag).hide();
         }
         else{
            document.getElementById('curTags').innerHTML = "全部文章";
+           document.title = "SpaceNX/全部文章"
         }
     });
 </script>
