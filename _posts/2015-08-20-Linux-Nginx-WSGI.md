@@ -5,7 +5,7 @@ layout: post
 more: yes
 tags:
 - 运维配置
-excerpt: 最近用Django做了一个很simple|naive|young的小项目, 然后又在阿里云上混了一个虚拟云主机。所以需要将本地ubuntu环境下(测试环境)django项目部署到远程虚拟主机的生产环境下。
+excerpt: 最近用Django做了一个非常simple|naive|young的小项目, 然后又在阿里云上混了一个虚拟云主机。所以需要将本地ubuntu环境下(测试环境)的django项目部署到远程虚拟主机的生产环境下， 虽然过程比较简单， 但是也犯了一些比较低级的或者经验上的错误， 总结一番。
 ---
 
 

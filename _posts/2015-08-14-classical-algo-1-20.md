@@ -6,7 +6,7 @@ post-img: /img/bg1.png
 more: yes
 tags:
 - 算法竞赛
-excerpt: 希望本集合少一点水题 :)  ｜  希望本集合的题目能一直延续一下 :) ｜ 喵咪咪～
+excerpt: 「&nbsp;希望本集合少一点水题 :)  <br> 「&nbsp; 希望本集合的题目能一直延续一下 :)  <br> 「&nbsp; 喵咪咪～
 ---
 
 * 希望本集合少一点水题 :) 
