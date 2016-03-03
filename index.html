@@ -70,11 +70,10 @@ layout: none
        <button type="button" class="btn btn-link hidden-lg toggle-navigation" aria-label="Navigation Menu"><i class="fa fa-bars"></i></button> 
        <nav id="site-navigation" class="navigation main-navigation" role="navigation"> 
         <ul id="menu-a" class="nav-menu">
-         <li id="menu-item-495" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-495"><a href="{{site.url}}/home.html">SpaceNX主页</a></li> 
        
-         <li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a title="一些演讲议题与文章" href="{{site.url}}">全部文章</a></li> 
+         <li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a title="所有文章" href="{{site.url}}">全部文章</a></li> 
 
-         <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a title="知道创宇研发技能表" href="">Links</a></li> 
+         <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a title="我的技能秀" href="">技能秀</a></li> 
 
          <li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5"><a title="一些链接文件" href="http://#">Links</a> 
           <ul class="sub-menu"> 
@@ -82,9 +81,11 @@ layout: none
            <li id="menu-item-405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-405"><a title="课程总结" href="{{site.url}}/lab/xssee">Class In SJTU</a></li> 
            <li id="menu-item-406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-406"><a title="技术相关" href="{{site.url}}/lab/xss_pwd">Projects</a></li> 
           </ul> 
-        </li> 
-         <li id="menu-item-524" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-524"><a title="了解更多…" href="{{site.url}}/about.html">关于</a></li> 
-        </ul> 
+         </li> 
+
+          <li id="menu-item-495" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-495"><a href="{{site.url}}/home.html">SpaceNX主页</a>
+          </li> 
+        </ul>         
        </nav> 
       </header> 
       <div class="sidebar-offcanvas"> 
@@ -100,7 +101,7 @@ layout: none
          <h3 class="widget-title">分类目录</h3> 
          <ul> 
          	 {% for tag in site.tags %} 
-	           <li class="cat-item cat-item-2"><a href="{{site.url}}/all?tag={{tag[0]}}"> {{tag[0]}} </a> ({{tag[0].size}}) </li> 
+	           <li class="cat-item cat-item-2"><a href="{{site.url}}/all?tag={{tag[0]}}"> {{tag[0]}} </a> ({{tag[1].size}}) </li> 
 	         {% endfor %}
          </ul> 
         </aside> 
