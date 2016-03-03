@@ -35,7 +35,7 @@ layout: all
             var tag = decodeURI(query.tag);
             document.getElementById('curTags').innerHTML = tag;
             document.title = "SpaceNX/" + tag
-            $('h1').hide();
+        //    $('h1').hide();
             $('.post-block').not('.tag-' + tag).hide();
         }
         else{
