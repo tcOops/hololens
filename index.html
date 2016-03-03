@@ -71,15 +71,18 @@ layout: none
        <nav id="site-navigation" class="navigation main-navigation" role="navigation"> 
         <ul id="menu-a" class="nav-menu">
          <li id="menu-item-495" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-495"><a href="{{site.url}}/home.html">SpaceNX主页</a></li> 
-         <li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5"><a title="一些研究的东西" href="http://#">Space</a> 
+       
+         <li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a title="一些演讲议题与文章" href="{{site.url}}">全部文章</a></li> 
+
+         <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a title="知道创宇研发技能表" href="">Links</a></li> 
+
+         <li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5"><a title="一些链接文件" href="http://#">Links</a> 
           <ul class="sub-menu"> 
-           <li id="menu-item-404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-404"><a title="方便XSS与CSRF的工具" href="{{site.url}}/lab/xssor">xssor</a></li> 
-           <li id="menu-item-405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-405"><a title="XSSee设想做成一个字符串通用处理程序" href="{{site.url}}/lab/xssee">xssee</a></li> 
-           <li id="menu-item-406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-406"><a title="获取浏览器明文密码在线DEMO" href="{{site.url}}/lab/xss_pwd">xss_pwd</a></li> 
+           <li id="menu-item-404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-404"><a title="算法设计" href="{{site.url}}/lab/xssor">Algorithm</a></li> 
+           <li id="menu-item-405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-405"><a title="课程总结" href="{{site.url}}/lab/xssee">Class In SJTU</a></li> 
+           <li id="menu-item-406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-406"><a title="技术相关" href="{{site.url}}/lab/xss_pwd">Projects</a></li> 
           </ul> 
         </li> 
-         <li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a title="一些演讲议题与文章" href="{{site.url}}">全部文章</a></li> 
-         <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a title="知道创宇研发技能表" href="">Links</a></li> 
          <li id="menu-item-524" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-524"><a title="了解更多…" href="{{site.url}}/about.html">关于</a></li> 
         </ul> 
        </nav> 
@@ -97,7 +100,7 @@ layout: none
          <h3 class="widget-title">分类目录</h3> 
          <ul> 
          	 {% for tag in site.tags %} 
-	           <li class="cat-item cat-item-2"><a href="{{site.url}}/all?tag={{tag[0]}}"> {{tag[0]}} </a> (4) </li> 
+	           <li class="cat-item cat-item-2"><a href="{{site.url}}/all?tag={{tag[0]}}"> {{tag[0]}} </a> ({{tag[0].size}}) </li> 
 	         {% endfor %}
          </ul> 
         </aside> 
@@ -163,7 +166,7 @@ layout: none
 		         <div class="entry-meta">
 		          <span class="entry-date"><a href="{{site.url}}{{post.url}}" rel="bookmark"><time class="entry-date published" datetime="2015-10-05T11:02:37+00:00" itemprop="datepublished">{{ post.date | date: "%Y-%m-%d" }}</time></a></span> by 
 		          <span class="author vcard" itemscope="" itemprop="author" itemtype="http://schema.org/Person"><a class="url fn n" href="{{site.url}}/home.html" rel="author" itemprop="url"><span itemprop="name">ME</span></a></span>
-		          <span class="sep">&middot;</span>3,077 views
+		          <span class="sep">&middot;</span>404 views
 		          <span class="entry-date"><a href="#" rel="bookmark"></a></span>
 		          <span class="sep">&middot;</span>
 		          <span class="comments-link"><a href="{{site.url}}/?p=535#respond" itemprop="discussionUrl">0 Comments</a></span>

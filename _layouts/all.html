@@ -96,7 +96,7 @@ body.custom-background { background-color: #618dad; }
          <h3 class="widget-title">分类目录</h3> 
          <ul> 
          	 {% for tag in site.tags %} 
-	           <li class="cat-item cat-item-2"><a href="{{site.url}}/all?tag={{tag[0]}}"> {{tag[0]}} </a> (4) </li> 
+	           <li class="cat-item cat-item-2"><a href="{{site.url}}/all?tag={{tag[0]}}"> {{tag[0]}} </a> ({{tag[0].size}}) </li> 
 	         {% endfor %}
          </ul> 
         </aside> 
