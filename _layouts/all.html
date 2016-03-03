@@ -61,7 +61,7 @@ body.custom-background { background-color: #618dad; }
    <div class="container"> 
     <div class="row row-offcanvas row-offcanvas-left"> 
      <div id="secondary" class="col-lg-3"> 
-       <header id="masthead" class="site-header" role="banner"> 
+      <header id="masthead" class="site-header" role="banner"> 
        <div class="hgroup"> 
         <h1 class="site-title display-title"><a href="{{site.url}}/home.html" title="SpaceNX" rel="home"><span itemprop="name">SpaceNX</span></a></h1>
         <h2 itemprop="description" class="site-description"> 「 喵咪咪 」</h2> 
@@ -70,22 +70,17 @@ body.custom-background { background-color: #618dad; }
        <button type="button" class="btn btn-link hidden-lg toggle-navigation" aria-label="Navigation Menu"><i class="fa fa-bars"></i></button> 
        <nav id="site-navigation" class="navigation main-navigation" role="navigation"> 
         <ul id="menu-a" class="nav-menu">
-       
-         <li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a title="所有文章" href="{{site.url}}">全部文章</a></li> 
-
-         <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a title="我的技能秀" href="">技能秀</a></li> 
-
-         <li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5"><a title="一些链接文件" href="http://#">Links</a> 
+         <li id="menu-item-495" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-495"><a href="{{site.url}}/home.html">SpaceNX主页</a></li> 
+         <li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5"><a title="一些研究的东西" href="http://#">Space</a> 
           <ul class="sub-menu"> 
-           <li id="menu-item-404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-404"><a title="算法设计" href="{{site.url}}/lab/xssor">Algorithm</a></li> 
-           <li id="menu-item-405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-405"><a title="课程总结" href="{{site.url}}/lab/xssee">Class In SJTU</a></li> 
-           <li id="menu-item-406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-406"><a title="技术相关" href="{{site.url}}/lab/xss_pwd">Projects</a></li> 
-          </ul> 
-         </li> 
-
-          <li id="menu-item-495" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-495"><a href="{{site.url}}/home.html">SpaceNX主页</a>
-          </li> 
-        </ul>         
+           <li id="menu-item-404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-404"><a title="方便XSS与CSRF的工具" href="{{site.url}}/lab/xssor">xssor</a></li> 
+           <li id="menu-item-405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-405"><a title="XSSee设想做成一个字符串通用处理程序" href="{{site.url}}/lab/xssee">xssee</a></li> 
+           <li id="menu-item-406" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-406"><a title="获取浏览器明文密码在线DEMO" href="{{site.url}}/lab/xss_pwd">xss_pwd</a></li> 
+          </ul> </li> 
+          <li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a title="一些演讲议题与文章" href="{{site.url}}">全部文章</a></li> 
+         <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a title="知道创宇研发技能表" href="">Links</a></li> 
+         <li id="menu-item-524" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-524"><a title="了解更多…" href="{{site.url}}/about.html">关于</a></li> 
+        </ul> 
        </nav> 
       </header> 
       <div class="sidebar-offcanvas"> 
@@ -114,6 +109,38 @@ body.custom-background { background-color: #618dad; }
           
          </ul> 
         </aside>
+
+        <!--
+        <aside id="views-2" class="widget widget_views"> 
+         <h3 class="widget-title">大家正在看</h3> 
+         <ul> 
+          <li><a href="{{site.url}}/?p=334" title="[zz]关于kcon v2我的一些见解">[zz]关于kcon v2我的一些见解</a> - 1,835 views</li>
+         </ul> 
+        </aside> 
+		
+
+        <aside id="recent-comments-2" class="widget widget_recent_comments"> 
+         <h3 class="widget-title">近期评论</h3> 
+         <ul id="recentcomments">
+         
+          <li class="recentcomments"><span class="comment-author-link"><a href="http://www.zhongliuzhongxin.com/" rel="external nofollow" class="url">郴州肿瘤诊疗中心</a></span>发表在《<a href="{{site.url}}/?p=186#comment-17802">用了openshift+绑定域名+加速乐</a>》</li>
+         </ul> 
+        </aside> 
+        <aside id="archives-2" class="widget widget_archive"> 
+         <h3 class="widget-title">文章归档</h3> 
+         <ul> 
+          <li><a href="{{site.url}}/?m=201510">2015年十月</a>&nbsp;(1)</li> 
+         </ul> 
+        </aside> 
+
+
+        <aside id="tag_cloud-2" class="widget widget_tag_cloud"> 
+         <h3 class="widget-title">标签</h3> 
+         <div class="tagcloud">
+          <a href="{{site.url}}/?tag=android" class="tag-link-10" title="3个话题" style="font-size: 12.666666666667pt;">Android</a> 
+         </div> 
+        </aside> 
+		-->
 
         <aside id="meta-2" class="widget widget_meta"> 
          <h3 class="widget-title">功能</h3> 
