@@ -4,6 +4,7 @@ time: 2015.08.14
 layout: post
 post-img: /img/bg17.jpg
 more: yes
+type: 
 tags:
 - 算法竞赛
 excerpt: 「&nbsp;希望本集合少一点水题 :)  <br> 「&nbsp; 希望本集合的题目能一直延续一下 :)  <br> 「&nbsp; 喵咪咪～<br><br>源码地址：[https://github.com/tcOops/Training/tree/phase1/phase1](https://github.com/tcOops/Training/tree/phase1/phase1)

@@ -5,3 +5,10 @@
 * 站点流量统计
 * lap-top
 * Node.js || Ruby 实现更多功能
+---
+
+* 关于Front-Matter in jekyll:
+
+```
+type:
+- 
