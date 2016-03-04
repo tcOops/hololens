@@ -89,6 +89,7 @@ layout: none
         </ul>         
        </nav> 
       </header> 
+
       <div class="sidebar-offcanvas"> 
        <div id="main-sidebar" class="widget-area" role="complementary"> 
         <aside id="search-2" class="widget widget_search"> 
@@ -102,8 +103,8 @@ layout: none
          <h3 class="widget-title">分类目录</h3> 
          <ul> 
          	 {% for tag in site.tags %} 
-	           <li class="cat-item cat-item-2"><a href="{{site.url}}/all?tag={{tag[0]}}"> {{tag[0]}} </a> ({{tag[1].size}}) </li> 
-	         {% endfor %}
+             <li class="cat-item cat-item-2"><a href="{{site.url}}/all?tag={{tag[0]}}"> {{tag[0]}} </a> ({{tag[1].size}}) </li> 
+           {% endfor %}
          </ul> 
         </aside> 
         <aside id="recent-posts-2" class="widget widget_recent_entries"> 
@@ -157,44 +158,44 @@ layout: none
 	       </article>  
        {% endfor %}
 
-	<div class="pagination">
-	   {% if paginator.previous_page %}
-	    	<a class="prev page-numbers" href="{{ paginator.previous_page_path }}"><i class="fa fa-chevron-left"></i></a>
-	   {% else %}
+      	 <div class="pagination">
+      	   {% if paginator.previous_page %}
+      	    	<a class="prev page-numbers" href="{{ paginator.previous_page_path }}"><i class="fa fa-chevron-left"></i></a>
+      	   {% else %}
 
-	   {% endif %}
+      	   {% endif %}
 
-		{% for page in (1..paginator.total_pages) %}
-			  {% if page < paginator.page %}
-			  	{% if page == 1 %}
-			  	  <a class='page-numbers' href='{{site.url}}'>{{ page }}</a>
-			  	{% else %}
-			  	  <a class='page-numbers' href='{{site.url}}/page{{page}}/'>{{ page }}</a>
-			  	{% endif %}
-			  
-			  {% elsif page == paginator.page %}
-			  	<span class='page-numbers current'>M</span>
-			  	{% if paginator.next_page < paginator.total_pages %}
-			  		<span class="page-numbers dots">&hellip;</span>
-			  	{% endif %}
-			  {% endif %}
-			  	 
-		{% endfor %}
+      		{% for page in (1..paginator.total_pages) %}
+      			  {% if page < paginator.page %}
+      			  	{% if page == 1 %}
+      			  	  <a class='page-numbers' href='{{site.url}}'>{{ page }}</a>
+      			  	{% else %}
+      			  	  <a class='page-numbers' href='{{site.url}}/page{{page}}/'>{{ page }}</a>
+      			  	{% endif %}
+      			  
+      			  {% elsif page == paginator.page %}
+      			  	<span class='page-numbers current'>M</span>
+      			  	{% if paginator.next_page < paginator.total_pages %}
+      			  		<span class="page-numbers dots">&hellip;</span>
+      			  	{% endif %}
+      			  {% endif %}
+      			  	 
+      		{% endfor %}
 
-		{% if paginator.page != paginator.total_pages %}
-			  	{% if paginator.total_pages == 1 %}
-			  	  <a class='page-numbers' href='{{site.url}}'> 1 </a>
-			  	{% else %}
-			  		<a class='page-numbers' href='{{site.url}}/page{{paginator.total_pages}}/'>{{ paginator.total_pages }}</a>
-			  	{% endif %}
-		{% endif %}		
+      		{% if paginator.page != paginator.total_pages %}
+      			  	{% if paginator.total_pages == 1 %}
+      			  	  <a class='page-numbers' href='{{site.url}}'> 1 </a>
+      			  	{% else %}
+      			  		<a class='page-numbers' href='{{site.url}}/page{{paginator.total_pages}}/'>{{ paginator.total_pages }}</a>
+      			  	{% endif %}
+      		{% endif %}		
 
-		{% if paginator.next_page %}
-			 <a class="next page-numbers" href="{{ paginator.next_page_path }}"><i class="fa fa-chevron-right"></i></a>
-		{% else %}
-			    
-		{% endif %}
-	</div>
+      		{% if paginator.next_page %}
+      			 <a class="next page-numbers" href="{{ paginator.next_page_path }}"><i class="fa fa-chevron-right"></i></a>
+      		{% else %}
+      			    
+      		{% endif %}
+      	</div>
 
 
       </div> 
@@ -219,7 +220,7 @@ layout: none
 			color: #E1E2E0;
 		}
 
-				#review-statistics .review-wrap-up .review-wu-right ul li,#review-statistics  .review-wu-bars h3, .review-wu-bars span,#review-statistics .review-wrap-up .cwpr-review-top .cwp-item-category a{
+		#review-statistics .review-wrap-up .review-wu-right ul li,#review-statistics  .review-wu-bars h3, .review-wu-bars span,#review-statistics .review-wrap-up .cwpr-review-top .cwp-item-category a{
 			color:  #3D3D3D;
 		}
 		#review-statistics .review-wrap-up .review-wu-right .pros h2 {

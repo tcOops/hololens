@@ -12,9 +12,8 @@ excerpt: 「&nbsp;希望本集合少一点水题 :)  <br> 「&nbsp; 希望本集
 * 希望本集合少一点水题 :) 
 * 希望本集合的题目能一直延续一下 :) 
 * 喵咪咪～
-
-
-源码地址：[https://github.com/tcOops/Training/tree/phase1/phase1](https://github.com/tcOops/Training/tree/phase1/phase1)
+<br>
+*源码地址：<br>&nbsp; &nbsp;[https://github.com/tcOops/Training/tree/phase1/phase1](https://github.com/tcOops/Training/tree/phase1/phase1)
 ---
 
 * POJ 3984
