@@ -10,8 +10,6 @@ tags:
 excerpt: 无意中做到：<br> &nbsp;&nbsp;&nbsp;[CF|Round207|DIV1|A](http://codeforces.com/contest/356/problem/A)<br>一开始以为线段树可以秒， 果然数据是卡线段树的。后来经过考虑发现这题存在好几种方法， 特此总结一下。
 ---
 
-
-{{page.type}}
 &nbsp;&nbsp;无意中做到：[CF|Round207|DIV1|A](http://codeforces.com/contest/356/problem/A) , 一开始以为线段树可以秒， 果然数据是卡线段树的。
 后来经过考虑发现这题存在好几种方法， 特此总结一下：
 
