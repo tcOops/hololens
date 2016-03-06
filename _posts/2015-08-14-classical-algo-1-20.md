@@ -3,6 +3,7 @@ title: 重要算法题合集(1-20)
 time: 2015.08.14
 layout: post
 post-img: /img/bg17.jpg
+type: general
 more: yes
 type: 
 tags:

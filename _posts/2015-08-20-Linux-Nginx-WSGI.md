@@ -2,6 +2,7 @@
 title: Ubuntu14.04下配置Nginx + WSGI
 time: 2015.08.20
 layout: post
+type: general
 more: yes
 tags:
 - 运维配置

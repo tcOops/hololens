@@ -3,6 +3,7 @@ title: 当我在路上， 我会想些什么
 time: 2016.03.02 01:00:00
 layout: post
 post-img: /img/bg15.jpg
+type: general
 more: yes
 tags:
 - 旅行

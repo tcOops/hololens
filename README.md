@@ -11,4 +11,6 @@
 
 ```
 type:
+- general
+- sjtu
 - 
