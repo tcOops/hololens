@@ -11,3 +11,6 @@ title: Fun Links
 GFW的原理:<br>
 &nbsp;&nbsp;[https://theinitium.com/article/20150904-mainland-greatfirewall/](https://theinitium.com/article/20150904-mainland-greatfirewall/)<br>
 &nbsp;&nbsp;[https://mba811.gitbooks.io/web-study/content/fq/fq1.html](https://mba811.gitbooks.io/web-study/content/fq/fq1.html)
+
+最新的翻墙hosts文件:<br>
+&nbsp;&nbsp;[{{site.url}}/hosts.html]({{site.url}}/hosts.html)
