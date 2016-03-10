@@ -2,21 +2,24 @@
 layout: none
 ---
 
-<span style="color:red"> <h2> 技能表（待补充）</h2> </span>
+<h2> <span style="color:red">技能表（待补充）</span> </h2> 
 
 ###等级：10分制
 
 ---
+<Algorithm>
 
 ```
-<Algorithm>
 搜索： 
-</Algorithm>
+
 ```
+</Algorithm>
 
 ---
 
-```
+
 <project>
-</project>
+
 ```
+```
+</project>
