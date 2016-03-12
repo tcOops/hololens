@@ -14,3 +14,8 @@ GFW的原理:<br>
 
 最新的翻墙hosts文件:<br>
 &nbsp;&nbsp;[{{site.url}}/hosts.md]({{site.url}}/hosts.md)
+<br>
+
+Chrome插件开发:<br>
+&nbsp;&nbsp;[https://developer.chrome.com/extensions/getstarted.html](https://developer.chrome.com/extensions/getstarted.html)
+<br>
