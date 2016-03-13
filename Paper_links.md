@@ -13,5 +13,5 @@ title: 论文相关
 
 
 存储系统的纠删码研究综述：<br>
-[{{site.url}}/assets/存储系统中的纠删码研究综述.pdf]({{site.url}}/assets/存储系统中的纠删码研究综述)
+[{{site.url}}/assets/存储系统中的纠删码研究综述.pdf]({{site.url}}/assets/存储系统中的纠删码研究综述.pdf)
 <br>
