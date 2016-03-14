@@ -155,7 +155,7 @@ layout: none
 		         </div> 
 		        </header> 
 
-		        <div class="entry-content" itemprop="articleBody"> 
+		        <div class="entry-content post-blocks" itemprop="articleBody"> 
 		         {% if post.post-img %}
 		          <p align=center><a href="{{site.url}}/img/bg11.jpg"><img align="middle" class="alignnone size-full wp-image-536" src="{{post.post-img}}" alt="me" width="640" height="480" /></a></p> 
 		         {% endif %}
@@ -163,7 +163,7 @@ layout: none
 		         <p>Enjoy <img src="{{site.url}}/img/bg11.jpg" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p> 
 		        </div> 
 		        {% if post.more %}
-			        <p><a class="btn btn-default btn-sm" href="{{site.url}}/{{post.url}}">Continue reading 
+			        <p><a class="btn btn-default btn-sm post-blocks" href="{{site.url}}/{{post.url}}">Continue reading 
 			        <i class="fa fa-angle-double-right"></i></a></p>
 		        {% endif %}
 	       </article>  
