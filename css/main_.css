@@ -23,6 +23,10 @@
   font-weight: 50;
 }
 
+.post-blocks{
+  font-family: Roboto, Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 .tag-block {
 	width:95%;
 	margin: 0.5em 2em 0 0em;
