@@ -19,3 +19,6 @@ GFW的原理:<br>
 Chrome插件开发:<br>
 &nbsp;&nbsp;[https://developer.chrome.com/extensions/getstarted.html](https://developer.chrome.com/extensions/getstarted.html)
 <br>
+
+分布式存储系统知识体系:<br>
+[http://wuchong.me/blog/2014/08/07/distributed-storage-system-knowledge/](http://wuchong.me/blog/2014/08/07/distributed-storage-system-knowledge/)
