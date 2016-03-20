@@ -8,6 +8,19 @@ title: Fun Links
 &nbsp;&nbsp;[http://blog.csdn.net/cywosp/article/details/23397179](http://blog.csdn.net/cywosp/article/details/23397179)
 <br>
 
+C/C++ 内存分配:<br>
+[http://blog.csdn.net/youoran/article/details/10990815](http://blog.csdn.net/youoran/article/details/10990815)
+<br>
+
+C/C++ fork 基本知识<br>
+
+<br>
+
+MySQL索引背后的数据结构及算法原理<br>
+[http://blog.codinglabs.org/articles/theory-of-mysql-index.html](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
+<br>
+
+
 GFW的原理:<br>
 &nbsp;&nbsp;[https://theinitium.com/article/20150904-mainland-greatfirewall/](https://theinitium.com/article/20150904-mainland-greatfirewall/)<br>
 &nbsp;&nbsp;[https://mba811.gitbooks.io/web-study/content/fq/fq1.html](https://mba811.gitbooks.io/web-study/content/fq/fq1.html)
