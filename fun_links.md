@@ -9,19 +9,19 @@ title: Fun Links
 <br>
 
 C/C++ 内存分配:<br>
-[http://blog.csdn.net/youoran/article/details/10990815](http://blog.csdn.net/youoran/article/details/10990815)
+&nbsp;&nbsp;[http://blog.csdn.net/youoran/article/details/10990815](http://blog.csdn.net/youoran/article/details/10990815)
 <br>
 
 C/C++ fork 基本知识<br>
-[http://www.yolinux.com/TUTORIALS/ForkExecProcesses.html](http://www.yolinux.com/TUTORIALS/ForkExecProcesses.html)
+&nbsp;&nbsp;[http://www.yolinux.com/TUTORIALS/ForkExecProcesses.html](http://www.yolinux.com/TUTORIALS/ForkExecProcesses.html)
 <br>
 
 MySQL索引背后的数据结构及算法原理<br>
-[http://blog.codinglabs.org/articles/theory-of-mysql-index.html](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
+&nbsp;&nbsp;[http://blog.codinglabs.org/articles/theory-of-mysql-index.html](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
 <br>
 
 Bloom  Filter<br>
-[http://www.cnblogs.com/haippy/archive/2012/07/13/2590351.html](http://www.cnblogs.com/haippy/archive/2012/07/13/2590351.html)
+&nbsp;&nbsp;[http://www.cnblogs.com/haippy/archive/2012/07/13/2590351.html](http://www.cnblogs.com/haippy/archive/2012/07/13/2590351.html)
 <br>
 
 GFW的原理:<br>
@@ -37,8 +37,8 @@ Chrome插件开发:<br>
 <br>
 
 分布式存储系统知识体系:<br>
-[http://wuchong.me/blog/2014/08/07/distributed-storage-system-knowledge/](http://wuchong.me/blog/2014/08/07/distributed-storage-system-knowledge/)
+&nbsp;&nbsp;[http://wuchong.me/blog/2014/08/07/distributed-storage-system-knowledge/](http://wuchong.me/blog/2014/08/07/distributed-storage-system-knowledge/)
 <br>
 
 Git使用文档<br>
-[http://iissnan.com/progit/html/zh/ch1_1.html](http://iissnan.com/progit/html/zh/ch1_1.html)
+&nbsp;&nbsp;[http://iissnan.com/progit/html/zh/ch1_1.html](http://iissnan.com/progit/html/zh/ch1_1.html)
