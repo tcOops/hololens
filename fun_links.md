@@ -20,6 +20,9 @@ MySQL索引背后的数据结构及算法原理<br>
 [http://blog.codinglabs.org/articles/theory-of-mysql-index.html](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
 <br>
 
+Bloom  Filter<br>
+[http://www.cnblogs.com/haippy/archive/2012/07/13/2590351.html](http://www.cnblogs.com/haippy/archive/2012/07/13/2590351.html)
+<br>
 
 GFW的原理:<br>
 &nbsp;&nbsp;[https://theinitium.com/article/20150904-mainland-greatfirewall/](https://theinitium.com/article/20150904-mainland-greatfirewall/)<br>
