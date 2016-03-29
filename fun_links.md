@@ -42,3 +42,7 @@ Chrome插件开发:<br>
 
 Git使用文档<br>
 &nbsp;&nbsp;[http://iissnan.com/progit/html/zh/ch1_1.html](http://iissnan.com/progit/html/zh/ch1_1.html)
+
+P/NP/NPC问题<br>
+[http://www.matrix67.com/blog/archives/105](http://www.matrix67.com/blog/archives/105)
+<br>
