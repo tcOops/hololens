@@ -46,3 +46,6 @@ Git使用文档<br>
 P/NP/NPC问题<br>
 [http://www.matrix67.com/blog/archives/105](http://www.matrix67.com/blog/archives/105)
 <br>
+
+浏览器完成一次请求全过程<br>
+[http://fex.baidu.com/blog/2014/05/what-happen](http://fex.baidu.com/blog/2014/05/what-happen)
