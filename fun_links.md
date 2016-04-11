@@ -49,3 +49,13 @@ P/NP/NPC问题<br>
 
 浏览器完成一次请求全过程<br>
 &nbsp;&nbsp;[http://fex.baidu.com/blog/2014/05/what-happen](http://fex.baidu.com/blog/2014/05/what-happen)
+<br>
+
+Javascript异步机制<br>
+&nbsp;&nbsp;[http://www.cnblogs.com/sprying/archive/2013/05/26/3100639.html](http://www.cnblogs.com/sprying/archive/2013/05/26/3100639.html)
+&nbsp;&nbsp;[http://ejohn.org/blog/how-javascript-timers-work/](http://ejohn.org/blog/how-javascript-timers-work/)
+<br>
+
+Ubuntu中关于网络配置的问题<br>
+[http://blog.csdn.net/anhuidelinger/article/details/17584299/](http://blog.csdn.net/anhuidelinger/article/details/17584299/)
+<br>
