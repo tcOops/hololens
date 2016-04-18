@@ -9,3 +9,7 @@ title: 算法相关
 拟阵在贪心算法中的应用<br>
 [http://wyfcyx.logdown.com/posts/234430-summary-matroids-in-part-of-greedy-algorithm-and-its-application](http://wyfcyx.logdown.com/posts/234430-summary-matroids-in-part-of-greedy-algorithm-and-its-application)
 <br>
+
+素数筛法<br>
+[http://blog.csdn.net/dinosoft/article/details/5829550](http://blog.csdn.net/dinosoft/article/details/5829550)
+<br>
