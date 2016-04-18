@@ -16,7 +16,9 @@ title: 近期做题汇总
 近期一波题， 还是以复习之前学过的算法为主。
 很多题目， 静下心来想还是不会那么没有头绪的。
 ```
-
+<br>
+2016/4/6
+<br><br>
 [http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=18851](http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=18851)<br>
 `数位DP`的入门题， 这题直接DP比较方便，而不便使用记忆化（因为dp过程中其实发现状态跟具体数字没啥关系， 都是可以预处理出来的）
 <br>
