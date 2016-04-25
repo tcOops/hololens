@@ -13,3 +13,14 @@ title: 算法相关
 素数筛法<br>
 [http://blog.csdn.net/dinosoft/article/details/5829550](http://blog.csdn.net/dinosoft/article/details/5829550)
 <br>
+
+RMQ与LCA
+[http://blog.csdn.net/pi9nc/article/details/8142384](http://blog.csdn.net/pi9nc/article/details/8142384)
+<br>
+
+强连通分量的Tarjan算法
+[https://www.byvoid.com/blog/scc-tarjan](https://www.byvoid.com/blog/scc-tarjan)
+<br>
+
+数位DP
+[http://agatelee.cn/2016/04/数位dp/](http://agatelee.cn/2016/04/数位dp/)

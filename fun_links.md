@@ -61,5 +61,6 @@ Ubuntu中关于网络配置的问题<br>
 <br>
 
 FLAG面经<br>
-[http://www.jiuzhang.com/interview/10/](http://www.jiuzhang.com/interview/10/)
+[http://www.jiuzhang.com/interview/10/](http://www.jiuzhang.com/interview/10/)<br>
+[http://noalgo.info/404.html](http://noalgo.info/404.html)
 <br>

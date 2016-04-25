@@ -103,3 +103,14 @@ title: 近期做题汇总
 ```
 
 <br>
+
+---
+<br>
+2016/4/20
+<br><br>
+[http://acm.hdu.edu.cn/showproblem.php?pid=4825](http://acm.hdu.edu.cn/showproblem.php?pid=4825)
+<br>
+
+[http://acm.hdu.edu.cn/showproblem.php?pid=4588](http://acm.hdu.edu.cn/showproblem.php?pid=4588)<br>
+
+[http://acm.hdu.edu.cn/showproblem.php?pid=2079](http://acm.hdu.edu.cn/showproblem.php?pid=2079)
