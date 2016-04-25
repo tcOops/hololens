@@ -14,13 +14,13 @@ title: 算法相关
 [http://blog.csdn.net/dinosoft/article/details/5829550](http://blog.csdn.net/dinosoft/article/details/5829550)
 <br>
 
-RMQ与LCA
+RMQ与LCA<br>
 [http://blog.csdn.net/pi9nc/article/details/8142384](http://blog.csdn.net/pi9nc/article/details/8142384)
 <br>
 
-强连通分量的Tarjan算法
+强连通分量的Tarjan算法<br>
 [https://www.byvoid.com/blog/scc-tarjan](https://www.byvoid.com/blog/scc-tarjan)
 <br>
 
-数位DP
+数位DP<br>
 [http://agatelee.cn/2016/04/数位dp/](http://agatelee.cn/2016/04/数位dp/)
