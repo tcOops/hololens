@@ -64,3 +64,7 @@ FLAG面经<br>
 [http://www.jiuzhang.com/interview/10/](http://www.jiuzhang.com/interview/10/)<br>
 [http://noalgo.info/404.html](http://noalgo.info/404.html)
 <br>
+
+[hadoop集群]<br>
+[http://www.powerxing.com/install-hadoop/](http://www.powerxing.com/install-hadoop/)
+<br>
