@@ -28,3 +28,7 @@ RMQ与LCA<br>
 CROC Solution<br>
 [http://codeforces.com/blog/entry/44408](http://codeforces.com/blog/entry/44408)
 <br>
+
+楼教-男人八题<br>
+[{{site.url}}/assets/ltc-8.pdf]({{site.url}}/assets/ltc-8.pdf)
+<br>
