@@ -24,3 +24,7 @@ RMQ与LCA<br>
 
 数位DP<br>
 [http://agatelee.cn/2016/04/数位dp/](http://agatelee.cn/2016/04/数位dp/)
+
+CROC Solution<br>
+[http://codeforces.com/blog/entry/44408](http://codeforces.com/blog/entry/44408)
+<br>
