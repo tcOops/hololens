@@ -114,3 +114,20 @@ title: 近期做题汇总
 [http://acm.hdu.edu.cn/showproblem.php?pid=4588](http://acm.hdu.edu.cn/showproblem.php?pid=4588)<br>
 
 [http://acm.hdu.edu.cn/showproblem.php?pid=2079](http://acm.hdu.edu.cn/showproblem.php?pid=2079)
+
+---
+待做：
+CF 337D [http://codeforces.com/contest/337/problem/D](http://codeforces.com/contest/337/problem/D) <br>
+
+CF 202 DIV2 
+<br>
+
+CROC B/C<br>
+[http://www.codeforces.com/contest/662](http://www.codeforces.com/contest/662)
+<br>
+
+最大团
+<br>
+
+百度之星2014、2015
+<br>
