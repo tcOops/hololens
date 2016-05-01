@@ -29,6 +29,11 @@ CROC Solution<br>
 [http://codeforces.com/blog/entry/44408](http://codeforces.com/blog/entry/44408)
 <br>
 
+Manacher's Algorithm<br>
+[https://www.felix021.com/blog/read.php?2040](https://www.felix021.com/blog/read.php?2040)<br>
+用O(n)的复杂度求解一个字符串的最长回文串
+<br>
+
 楼教-男人八题<br>
 [{{site.url}}/assets/ltc-8.pdf]({{site.url}}/assets/ltc-8.pdf)
 <br>
