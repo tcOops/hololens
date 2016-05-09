@@ -65,6 +65,21 @@ FLAG面经<br>
 [http://noalgo.info/404.html](http://noalgo.info/404.html)
 <br>
 
-[hadoop集群]<br>
+hadoop集群搭建<br>
 [http://www.powerxing.com/install-hadoop/](http://www.powerxing.com/install-hadoop/)
 <br>
+
+Google服务器架构图解<br>
+[http://www.ha97.com/4128.html](http://www.ha97.com/4128.html)
+<br>
+
+How to prepare the interview for google<br>
+[http://www.catehuston.com/blog/2010/07/13/interviewing-google/](http://www.catehuston.com/blog/2010/07/13/interviewing-google/)
+<br>
+
+台灣師範大學Algorithm在線教程<br>
+[http://www.csie.ntnu.edu.tw/~u91029/index.html](http://www.csie.ntnu.edu.tw/~u91029/index.html)
+<br>
+
+一条数据狗的上海房价研究<br>
+[https://yq.aliyun.com/articles/38618?spm=5176.100239.yqblog1.6.oPRZxg](https://yq.aliyun.com/articles/38618?spm=5176.100239.yqblog1.6.oPRZxg)
