@@ -83,3 +83,8 @@ How to prepare the interview for google<br>
 
 一条数据狗的上海房价研究<br>
 [https://yq.aliyun.com/articles/38618?spm=5176.100239.yqblog1.6.oPRZxg](https://yq.aliyun.com/articles/38618?spm=5176.100239.yqblog1.6.oPRZxg)
+<br>
+
+关于分布式存储系统中的一致性问题<br>
+[http://hedengcheng.com/?p=892](http://hedengcheng.com/?p=892)
+<br>
