@@ -88,3 +88,11 @@ How to prepare the interview for google<br>
 关于分布式存储系统中的一致性问题<br>
 [http://hedengcheng.com/?p=892](http://hedengcheng.com/?p=892)
 <br>
+
+状态压缩DP总结<br>
+[http://blog.csdn.net/accry/article/details/6607703](http://blog.csdn.net/accry/article/details/6607703)
+<br>
+
+关于Docker的基本知识<br>
+[http://jm.taobao.org/2016/05/12/introduction-to-docker/](http://jm.taobao.org/2016/05/12/introduction-to-docker/)
+<br>
