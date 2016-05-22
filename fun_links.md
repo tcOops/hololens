@@ -96,3 +96,11 @@ How to prepare the interview for google<br>
 关于Docker的基本知识<br>
 [http://jm.taobao.org/2016/05/12/introduction-to-docker/](http://jm.taobao.org/2016/05/12/introduction-to-docker/)
 <br>
+
+最大团问题<br>
+[http://www.cnblogs.com/zhj5chengfeng/archive/2013/07/29/3224092.html](http://www.cnblogs.com/zhj5chengfeng/archive/2013/07/29/3224092.html)
+<br>
+
+关于Catalan树<br>
+[http://www.cppblog.com/MiYu/archive/2010/08/07/122573.html](http://www.cppblog.com/MiYu/archive/2010/08/07/122573.html)
+<br>
