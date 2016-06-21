@@ -102,5 +102,9 @@ How to prepare the interview for google<br>
 <br>
 
 关于Catalan树<br>
-[http://www.cppblog.com/MiYu/archive/2010/08/07/122573.html](http://www.cppblog.com/MiYu/archive/2010/08/07/122573.html)
+[http://baike.baidu.com/link?url=RdjIU8mirwV6fMxiDVZ6BKfoNQdP8x75da_Zx3vMttFCbPmSR32gpjcE0CaDS1vCGaT5NdxMcQqcEGhlXixT0a](http://baike.baidu.com/link?url=RdjIU8mirwV6fMxiDVZ6BKfoNQdP8x75da_Zx3vMttFCbPmSR32gpjcE0CaDS1vCGaT5NdxMcQqcEGhlXixT0a)
+<br>
+
+关于I/O<br>
+[http://pengjiaheng.iteye.com/](http://pengjiaheng.iteye.com/)
 <br>

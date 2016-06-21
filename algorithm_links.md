@@ -41,3 +41,7 @@ Manacher's Algorithm<br>
 Johnson's Algorithm 求多源最短路<br>
 [http://www.cnblogs.com/gaochundong/p/johnson_algorithm.html](http://www.cnblogs.com/gaochundong/p/johnson_algorithm.html)
 <br>
+
+容斥原理<br>
+[http://www.cppblog.com/vici/archive/2011/09/05/155103.html](http://www.cppblog.com/vici/archive/2011/09/05/155103.html)
+<br>
